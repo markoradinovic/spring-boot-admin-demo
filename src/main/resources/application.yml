@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  
+spring:
+  boot:
+    admin:
+      url: http://localhost:8080
+  mvc:
+    async:
+      request-timeout: -1
+      
+#spring.mvc.async.request-timeout=-1﻿​
