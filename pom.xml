@@ -8,9 +8,9 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.0.RELEASE</version>
 	</parent>
-	<artifactId>demo</artifactId>
+	<artifactId>spring-boot-admin-demo</artifactId>
 	<groupId>rs.codecentrid</groupId>
-	<name>Spring Boot Jetty Sample</name>
+	<name>Spring Boot Admin Demo</name>
 	<description>Spring Boot Jetty Sample</description>
 	<version>0.0.1-SNAPSHOT</version>
 	<url>http://www.codecentric.rs</url>
@@ -18,6 +18,9 @@
 		<name>codecentric d.o.o..</name>
 		<url>http://www.codecentric.rs</url>
 	</organization>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
