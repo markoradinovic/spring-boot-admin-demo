@@ -29,5 +29,6 @@ nbactions.xml
 
 # Maven
 log/
+*.log
 target/
 

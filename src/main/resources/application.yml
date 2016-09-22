@@ -9,3 +9,6 @@ spring:
   mvc:
     async:
       request-timeout: -1
+      
+logging:
+  file: service.log
